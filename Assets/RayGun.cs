@@ -7,6 +7,7 @@ public class RayGun : MonoBehaviour
     public LayerMask layerMask;
     public OVRInput.RawButton shootingButton;
     public LineRenderer linePrefab;
+    public GameObject rayImpactPrefab;
     public Transform shootingPoint;
     public float maxLineDistance = 5;
     public float lineShowTimer = 0.3f;
@@ -41,6 +42,20 @@ public class RayGun : MonoBehaviour
         if(hasHit)
         {
             endPoint = hit.point;
+
+            Ghost ghost = hit.transform.GetComponentInParent<Ghost>();
+            if(ghost)
+            {
+                // Kill the ghost
+                ghost.Kill();
+            }
+            else{
+                Quaternion rayImpactRotation = Quaternion.LookRotation(-hit.normal);
+                GameObject rayImpact = Instantiate(rayImpactPrefab, hit.point, rayImpactRotation);
+
+                Destroy(rayImpact, 1);
+            }
+            
         }
         else
         {
