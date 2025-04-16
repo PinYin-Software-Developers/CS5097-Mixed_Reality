@@ -27,6 +27,11 @@ public class Ghost : MonoBehaviour
 
     public void Kill(){
         agent.enabled = false;
-        // animator.setTrigger("Death");
+        animator.SetTrigger("Death");
+    }
+
+    public void Destroy(){
+        Destroy(gameObject);
     }
 }
+

@@ -43,11 +43,23 @@ public class RayGun : MonoBehaviour
         {
             endPoint = hit.point;
 
+            // Inside your Shoot() method, in the hasHit block:
+            InfinityStone stone = hit.transform.GetComponent<InfinityStone>();
+            GhostSpawner ghostSpawner = FindObjectOfType<GhostSpawner>();
             Ghost ghost = hit.transform.GetComponentInParent<Ghost>();
             if(ghost)
             {
                 // Kill the ghost
+                hit.collider.enabled = false;
                 ghost.Kill();
+            }
+            // Then check for Infinity Stone
+            else if (stone)
+            {
+                // Kill the stone
+                hit.collider.enabled = false;
+                ghostSpawner.StopSpawning();
+                stone.Kill();
             }
             else{
                 Quaternion rayImpactRotation = Quaternion.LookRotation(-hit.normal);
