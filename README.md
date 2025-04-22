@@ -29,4 +29,4 @@ Players can shoot and destroy physical-looking walls in their room to reveal a b
 - ✅ Outer space revealed behind real-world walls upon destruction  
 - ✅ Enhanced visual effects for destruction and combat feedback
 
-![Destructible Wall Demo](Project_Photos/Destructible_Wall.jpeg)
+![Destructible Wall Demo](Destructible_Wall.jpeg)
