@@ -1,4 +1,4 @@
-# Final Project Report: Mixed Reality Alien Shooter
+# CS5097 Final Project: Mixed Reality Alien Shooter
 
 ## Team Members
 - Bhanu Chandra Pachipala  
