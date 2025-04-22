@@ -25,7 +25,7 @@ Using the MetaQuest 3's built-in cameras, the game overlays digital elements on 
 
 ## 🖼️ Alien Shooting Preview
 
-![Alien Shooting](Alien%20Shooting.jpeg)
+![Alien Shooting](Shoot%20Aliens.jpeg))
 
 ## 📁 Repository Structure
 
