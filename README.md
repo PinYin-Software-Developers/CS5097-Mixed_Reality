@@ -7,8 +7,8 @@
 
 ## 📄 Final Submission Report
 
-This repository hosts the complete submission for our CS5097 Mixed Reality project, “Mixed Reality Alien Shooter.”  
-To improve clarity and maintainability, we have **modularized** the repository by separating gameplay content, development logs, and visual documentation into distinct branches.
+This repository contains the complete submission for our CS5097 Mixed Reality project, **"Mixed Reality Alien Shooter."**  
+To improve clarity and maintainability, we have **modularized** the repository by organizing gameplay content, development logs, and visual documentation into distinct branches.
 
 ---
 
@@ -19,20 +19,21 @@ To improve clarity and maintainability, we have **modularized** the repository b
 - Optimized for grading and academic archiving.
 
 ### `Demonstrated_Version`
-- Contains the **playable version of the project**, featuring the core gameplay experience developed with Unity.
-- Includes room scanning, alien encounters, and combat using Meta Quest 3’s spatial tracking and hand controller.
+- Contains the **demonstrated version of the project**, featuring **infinity stone** and **stargate** mechanics.
+- Includes room scanning, alien encounters, infinity stone seeking, and stargate destruction gameplay.
 
 ### `DestructibleWall_OuterSpace_Version`
-- A custom alternate version by **Zoey Lan**, which integrates **destructible wall mechanics** and an outer-space setting.
-- Explores extended interactivity beyond the original scope.
+- A custom alternate version integrating **destructible wall mechanics** and an **outer space setting**, designed to explore extended interactivity.
+- Features include room scanning, wall destruction, outer space revelation, and alien combat.
 
 ### `Project_Photos`
-- A collection of **project screenshots and media**, showcasing development progress, gameplay moments, and environment mapping results.
-- Useful for documentation and presentation.
+- A collection of **screenshots and visual media**, showcasing development progress, gameplay highlights, and environment mapping results.
+- Useful for documentation and presentation purposes.
+
+## 🔍 Quick Preview
+![Alien Shooting](Shoot%20Aliens.jpeg)
 
 ---
 
 ## 📎 Notes
-- For gameplay mechanics and technical implementation, see the `README.md` in [`Demonstrated_Version`](../../tree/Demonstrated_Version).
-- All branches are self-contained and can be independently explored.
-
+- Each branch is self-contained and can be explored independently.
