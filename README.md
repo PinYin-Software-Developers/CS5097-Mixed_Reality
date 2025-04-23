@@ -20,7 +20,7 @@ To improve clarity and maintainability, we have **modularized** the repository b
 
 ### `Demonstrated_Version`
 - Contains the **demonstrated version of the project**, featuring **infinity stone** and **stargate** mechanics.
-- Includes room scanning, alien encounters, infinity stone seeking, and stargate destruction gameplay.
+- Includes room scanning, alien encounters, infinity stone seeking, and stargate gameplay.
 
 ### `DestructibleWall_OuterSpace_Version`
 - A custom alternate version integrating **destructible wall mechanics** and an **outer space setting**, designed to explore extended interactivity.
