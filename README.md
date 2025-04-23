@@ -28,7 +28,6 @@ To improve clarity and maintainability, we have **modularized** the repository b
 
 ### `Project_Photos`
 - A collection of **screenshots and visual media**, showcasing development progress, gameplay highlights, and environment mapping results.
-- Useful for documentation and presentation purposes.
 
 ## 🔍 Quick Preview
 ![Alien Shooting](Shoot%20Aliens.jpeg)
